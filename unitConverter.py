@@ -22,9 +22,10 @@ elif number == 3:
     volumeL = float(input("Enter a volume in liters: "))
     volumeGal = volumeL * 0.264172
     print(volumeL, "liters is", volumeGal, "gallons")
-else:
+elif number == 4:
     tempC = float(input("Enter a temperature in Celsius: "))
     tempF = tempC * 1.8 + 32
     print(tempC, "degrees Celsius is", tempF, "degrees Fahrenheit")
-
+else:
+    print("Error. Try again. This time use a number between 1 and 4")
     
