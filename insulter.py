@@ -14,4 +14,6 @@ elif number == 2:
 elif number == 3:
     print("I've owned dogs smarter than you")
 elif number == 4:
-    print("You 
+    print("You don't know the difference between an integer and a float")
+else:
+    print("You can't correctly write an 'if' statement")
