@@ -12,9 +12,14 @@ if riverYOrN == "yes":
     if sharkYOrN == "yes":
         print("The shark eats you, and you die :(")
     else:
-        print("The shark swims away, only to eat you later")
+        print("You befriend the shark")
+        print("Soon you become hungy, your stomach is rumbling")
+        soupYOrN = input("Do you want to make sharkfin soup? ")
+        if soupYOrN == "yes":
+            print("The shark eats you before you can kill it. It's hungry too :(")
+        else:
+            print("You die of starvation :(")
 else:
-    print("The bear eats you :(")
-    
+    print("You fall off a cliff while running from the bear. You're dead :(")
     
 
