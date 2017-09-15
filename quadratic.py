@@ -10,12 +10,12 @@ b = float(input("Enter a b-value: ")) #b-value of quadratic
 c = float(input("Enter a c-value: ")) #c-value of quadratic
 
 if sqrt(b**2 - 4*a*c) >= 0: #testing if the determinate is greater than 0
-    x1 = (-b + (b**2 - (4 * a * c))**.5)/2a
-    x2 = (-b - (b**2 - (4 * a * c))**.5)/2a
+    x1 = (-b + sqrt((b**2 - 4*a*c))/2*a
+    x2 = (-b - sqrt((b**2 - 4*a*c))/2*a
     print("X =", x1)
     print("X =", x2)
 else:
     real = (-b)/2a
-    imaginary = (abs(b**2 - 4*a*c)**.5)/2a
+    imaginary = sqrt((abs(b**2 - 4*a*c)))/2*a
     print("X =", real, "+", imaginary, "i")
     print("x =", real, "-", imaginary, "i")
