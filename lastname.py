@@ -4,4 +4,6 @@
 
 lastName = input("Enter your last name: ")
 
-
+if lastName < "m":
+    print("gucci")
+    
