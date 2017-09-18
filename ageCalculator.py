@@ -3,7 +3,7 @@
 #ageCalculator.py - calculates how old you are
 
 from datetime import date
-import sys
+
 year = int(input("Enter the year you were born in: "))
 month = int(input("Enter the month you were born in: "))
 day = int(input("Enter the day you were born on: "))
