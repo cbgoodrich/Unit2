@@ -150,7 +150,6 @@ elif dig1 == 15:
     else:
         dig2 = dig2
     print(dig1, dig2)
+
 else:
     print(dig1, dig2)
-
-    
